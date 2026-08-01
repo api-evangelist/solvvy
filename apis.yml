@@ -1,8 +1,25 @@
 aid: solvvy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solvvy.png
 name: Solvvy
-description: 'Solvvy is a company surfaced as a portfolio company of scale-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Solvvy was a conversational-AI and customer-support automation platform that let companies
+  deploy self-service virtual agents to understand end-customer questions, resolve issues, and deflect
+  support tickets across chat and web channels. Zoom announced a definitive agreement to acquire Solvvy
+  in May 2022 and folded its natural-language and workflow-automation technology into Zoom Contact Center
+  and the Zoom Virtual Agent product. As of this profile the standalone Solvvy brand is discontinued:
+  solvvy.com no longer serves a site (HTTPS connection refused) and the company publishes no independent,
+  live public API, developer portal, or documentation. This repo is retained as a historical company
+  record; there is no active API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/solvvy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,21 @@ x-backed-by:
 - scale-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: zoom
+x-acquired-date: '2022-05'
+x-successor-product: Zoom Virtual Agent / Zoom Contact Center
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Apps
+- Conversational AI
+- Customer Support
+- Automation
+- Virtual Agent
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://solvvy.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
