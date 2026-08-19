@@ -31,7 +31,7 @@ x-status: acquired
 x-acquired-by: zoom
 x-acquired-date: '2022-05'
 x-successor-product: Zoom Virtual Agent / Zoom Contact Center
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
